@@ -14,10 +14,10 @@ public class Main {
     public static Hero[] createHeroes() {
         Hero heroMagical = new Hero(220, 25, "Magical");
         Hero heroPhysical = new Hero(250, 15, "Physical");
-        Hero heroLucky = new Hero(200, 20, "Lucky");
+        Hero heroLucky = new Hero(200, 20, "Telepathic");
         Hero[] hero = {heroMagical, heroPhysical, heroLucky};
         for (int i = 0; i < hero.length; i++) {
-            System.out.println("Health: " + hero[i].getHealth() + " Damage: {" + hero[i].getDamage() + "} " + "Type defence: " + hero[i].getAbility());
+            System.out.println("Health: " + hero[i].getHealth() + " Damage: {" + hero[i].getDamage() + "} " + "Type ability: " + hero[i].getAbility());
         }
         return hero;
     }
